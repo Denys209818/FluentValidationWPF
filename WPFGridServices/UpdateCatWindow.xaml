@@ -1,0 +1,136 @@
+﻿<Window x:Class="WPFGridServices.UpdateCatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFGridServices"
+        mc:Ignorable="d"
+        Title="Редагування кота" Height="500" Width="450">
+    <Window.Resources>
+        <ControlTemplate x:Key="validationTemplate">
+            <StackPanel>
+                <Border BorderBrush="Red" BorderThickness="1">
+                    <AdornedElementPlaceholder/>
+                </Border>
+                <TextBlock Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+            </StackPanel>
+        </ControlTemplate>
+        
+        <!--Стилі-->
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Validation.ErrorTemplate" Value="{StaticResource validationTemplate}"/>
+        </Style>
+        <Style x:Key="btnUpdateStyle">
+            <Setter Property="Button.Margin" Value="0,20"/>
+            <Setter Property="Button.Height" Value="50"/>
+            <Setter Property="Button.Content" Value="Змінити"/>
+            <Setter Property="Button.FontSize" Value="24"/>
+            <EventSetter Event="Button.Click" Handler="btnUpdate_Click"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <StackPanel Width="300">
+            <Label FontSize="33" HorizontalAlignment="Center"
+                   Content="Редагування кота" Foreground="Red" FontWeight="Bold"/>
+            <StackPanel>
+                <Label Content="Назва"/>
+                <TextBox x:Name="txtName">
+                    <TextBox.Text>
+                        <Binding Path="Name">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule/>
+                            </Binding.ValidationRules>
+                            <Binding.UpdateSourceTrigger>
+                                PropertyChanged
+                            </Binding.UpdateSourceTrigger>
+                            <Binding.ValidatesOnDataErrors>
+                                True
+                            </Binding.ValidatesOnDataErrors>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Вік"/>
+                <TextBox x:Name="txtAge">
+                    <TextBox.Text>
+                        
+                    <Binding Path="Age">
+                        <Binding.ValidationRules>
+                            <DataErrorValidationRule/>
+                        </Binding.ValidationRules>
+                        <Binding.UpdateSourceTrigger>
+                            PropertyChanged
+                        </Binding.UpdateSourceTrigger>
+                        <Binding.ValidatesOnDataErrors>
+                            True
+                        </Binding.ValidatesOnDataErrors>
+                    </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Деталі"/>
+                <TextBox x:Name="txtDetails">
+                    <TextBox.Text>
+                        
+                    <Binding Path="Details">
+                        <Binding.ValidationRules>
+                            <DataErrorValidationRule/>
+                        </Binding.ValidationRules>
+                        <Binding.UpdateSourceTrigger>
+                            PropertyChanged
+                        </Binding.UpdateSourceTrigger>
+                        <Binding.ValidatesOnDataErrors>
+                            True
+                        </Binding.ValidatesOnDataErrors>
+                    </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Силка"/>
+                <TextBox x:Name="txtImgPath">
+                    <TextBox.Text>
+                        
+                    <Binding Path="ImgPath">
+                        <Binding.ValidationRules>
+                            <DataErrorValidationRule/>
+                        </Binding.ValidationRules>
+                        <Binding.UpdateSourceTrigger>
+                            PropertyChanged
+                        </Binding.UpdateSourceTrigger>
+                        <Binding.ValidatesOnDataErrors>
+                            True
+                        </Binding.ValidatesOnDataErrors>
+                    </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Ціна"/>
+                <TextBox x:Name="txtPrice">
+                    <TextBox.Text>
+                        
+                    <Binding Path="Price">
+                        <Binding.ValidationRules>
+                            <DataErrorValidationRule/>
+                        </Binding.ValidationRules>
+                        <Binding.UpdateSourceTrigger>
+                            PropertyChanged
+                        </Binding.UpdateSourceTrigger>
+                        <Binding.ValidatesOnDataErrors>
+                            True
+                        </Binding.ValidatesOnDataErrors>
+                    </Binding>
+                  </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <Button x:Name="btnUpdate" Style="{StaticResource btnUpdateStyle}"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

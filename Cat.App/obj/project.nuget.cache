@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XClZgz5CZ5U5l94pQNsRRnecP+585S2cMyQJ6tN4EiN4/dLNi9n+E2HLkan2WII+Hps7DjcgThRsh4q2p8Guew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Denis\\Desktop\\WPF HomeWork\\FluentValidationWPF\\Cat.App\\Cat.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Denis\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

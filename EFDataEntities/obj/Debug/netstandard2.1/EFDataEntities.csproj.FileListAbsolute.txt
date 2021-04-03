@@ -1,0 +1,9 @@
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\bin\Debug\netstandard2.1\EFDataEntities.deps.json
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\bin\Debug\netstandard2.1\EFDataEntities.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\bin\Debug\netstandard2.1\EFDataEntities.pdb
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.AssemblyInfo.cs
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.pdb
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataEntities\obj\Debug\netstandard2.1\EFDataEntities.csprojAssemblyReference.cache

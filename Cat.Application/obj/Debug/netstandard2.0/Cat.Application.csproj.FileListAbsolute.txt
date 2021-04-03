@@ -1,0 +1,9 @@
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\bin\Debug\netstandard2.0\Cat.Application.deps.json
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\bin\Debug\netstandard2.0\Cat.Application.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\bin\Debug\netstandard2.0\Cat.Application.pdb
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.AssemblyInfo.cs
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\Cat.Application\obj\Debug\netstandard2.0\Cat.Application.pdb

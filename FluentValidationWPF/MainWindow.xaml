@@ -1,0 +1,54 @@
+﻿<Window x:Class="FluentValidationWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FluentValidationWPF"
+        mc:Ignorable="d"
+        Title="Головна форма" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="eventStylesBtnAdd" BasedOn="{StaticResource btnAddStyle}">
+            <EventSetter Event="Button.Click" Handler="btnAdd_Click"/>
+        </Style>
+        <Style TargetType="Button" x:Key="eventStylesBtnUpdate" BasedOn="{StaticResource btnUpdateStyle}">
+            <EventSetter Event="Button.Click" Handler="btnUpdate_Click"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <DockPanel>
+            <DataGrid Width="650" DockPanel.Dock="Left" AutoGenerateColumns="False" Name="dgCats">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Назва" HeaderStyle="{StaticResource columnHeaderStyle}"
+                                        CellStyle="{StaticResource columnCellStyle}"
+                                        Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTemplateColumn Header="Фотографія" HeaderStyle="{StaticResource columnHeaderStyle}"
+                                        CellStyle="{StaticResource columnCellStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Width="64" Height="64" Source="{Binding ImgPath, UpdateSourceTrigger=PropertyChanged}" Stretch="Fill"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Дата народження" HeaderStyle="{StaticResource columnHeaderStyle}"
+                                        CellStyle="{StaticResource columnCellStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <DatePicker SelectedDate="{Binding Birthday, UpdateSourceTrigger=PropertyChanged}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Вік"
+                                        Binding="{Binding Age, UpdateSourceTrigger=PropertyChanged}" HeaderStyle="{StaticResource columnHeaderStyle}"
+                                        CellStyle="{StaticResource columnCellStyle}"/>
+                    <DataGridTextColumn Header="Ціна" 
+                                        Binding="{Binding Price, UpdateSourceTrigger=PropertyChanged}" HeaderStyle="{StaticResource columnHeaderStyle}"
+                                        CellStyle="{StaticResource columnCellStyle}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Height="435" Background="AntiqueWhite" DockPanel.Dock="Right">
+                <Button x:Name="btnAdd" Style="{StaticResource eventStylesBtnAdd}"/>
+                <Button x:Name="btnUpdate" Style="{StaticResource eventStylesBtnUpdate}"/>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

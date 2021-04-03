@@ -1,0 +1,12 @@
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\bin\Debug\netstandard2.1\EFDataContext.deps.json
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\bin\Debug\netstandard2.1\EFDataContext.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\bin\Debug\netstandard2.1\EFDataContext.pdb
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\bin\Debug\netstandard2.1\EFDataEntities.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\bin\Debug\netstandard2.1\EFDataEntities.pdb
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.AssemblyInfo.cs
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.csproj.CopyComplete
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.dll
+C:\Users\Denis\Desktop\WPF HomeWork\FluentValidationWPF\EFDataContext\obj\Debug\netstandard2.1\EFDataContext.pdb
